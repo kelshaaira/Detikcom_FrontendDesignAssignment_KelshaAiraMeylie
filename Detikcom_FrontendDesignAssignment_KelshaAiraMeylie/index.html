@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy/daOrQD6tr5G5eELCGLYlvF2Un4N6LAA" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div id="home">
+            <img src="asset/detikhealth.png" width="150" height="32"/>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li class="tentang-acara"><a href="#tentang-acara">Tentang Acara</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <a href="https://event.detik.com/" target="_blank"><button class="button">Registrasi</button></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title">
+        <img src="asset/title.png" width="600" height="240";/>
+    </div>
+
+    <a href="#tentang-acara"><button class="buttonacara">TENTANG ACARA</button></a>
+
+    <section id="tentang-acara">
+        <div class="section-content">
+            <div class="cardacara">
+                <div class="card-content1">
+                    <div class="card-image1">
+                        <img src="asset/map.png">
+                    </div>
+                    <h2>10K FUN RUN</h2>
+                    <p>Dimulai pukul 6 pagi, nikmati pemandangan kota di pagi hari<br/>dimulai dari Bundaran HI hingga Patung Pemuda<br/>Membangun di Senayan lalu kembali lagi ke Bundaran HI!</p>
+                </div>
+                <div class="cards-container">
+                    <div class="card-content2">
+                        <h2>GRATIS DAN BERHADIAH</h2>
+                        <p>Pendaftaran gratis! Ajak keluarga anda dan menangkan<br/>hadiah total puluhan juta rupiah doorprize menarik! </p>
+                    </div>
+                    <div class="card-content3">
+                        <h2>50+ TENANT BAZZAR</h2>
+                        <p>Dapatkan promo menarik pada booth-booth tenant bazzar Sudirman Run 2023 mulai dari F&B hingga fashion </p>
+                    </div>
+                    <div class="card-content4">
+                        <div class="card-content4-image">
+                            <img src="asset/ran.png" width="100" height="100">
+                        </div>
+                        <div class="card-content4-text">
+                            <h2>SPECIAL<br/>PERFORMANCE</h2>
+                            <p>Saksikan penampilan dari RAN, Ayu<br/>Ting Ting, Diskoria, serta hiburan lainnya!</p>
+                        </div>
+                    </div>                                                     
+                </div>
+            </div>
+        </div>
+        <a href="https://event.detik.com/" target="_blank"><button class="buttondaftar">DAFTAR SEKARANG</button></a>
+    </section>
+    <section id="sponsor">
+        <h2>DIDUKUNG OLEH</h2>
+        <div class="carousel" id="sponsor-carousel">
+            <div><img src="asset/sponsor/1.png"></div>
+            <div><img src="asset/sponsor/2.png"></div>
+            <div><img src="asset/sponsor/3.png"></div>
+            <div><img src="asset/sponsor/4.png"></div>
+            <div><img src="asset/sponsor/5.png"></div>
+            <div><img src="asset/sponsor/6.png"></div>
+            <div><img src="asset/sponsor/7.png"></div>
+            <div><img src="asset/sponsor/8.png"></div>
+            <div><img src="asset/sponsor/1.png"></div>
+            <div><img src="asset/sponsor/2.png"></div>
+            <div><img src="asset/sponsor/3.png"></div>
+            <div><img src="asset/sponsor/4.png"></div>
+            <div><img src="asset/sponsor/5.png"></div>
+            <div><img src="asset/sponsor/6.png"></div>
+            <div><img src="asset/sponsor/7.png"></div>
+            <div><img src="asset/sponsor/8.png"></div>
+            <div><img src="asset/sponsor/1.png"></div>
+            <div><img src="asset/sponsor/2.png"></div>
+            <div><img src="asset/sponsor/3.png"></div>
+            <div><img src="asset/sponsor/4.png"></div>
+        </div>
+    </section>
+    <section id="galeri">
+        <h2>GALERI SUDIRMAN RUN 2022</h2>
+        <div class="gallery-container">
+            <div class="big-image-container">
+                <button class="arrow-left" onclick="changeImage(-1)">&#8249;</button>
+                <div class="big-image">
+                    <img class="large-image" src="asset/galeri/1.png">
+                    <img class="large-image" src="asset/galeri/2.png">
+                    <img class="large-image" src="asset/galeri/3.png">
+                    <img class="large-image" src="asset/galeri/4.png">
+                </div>                
+                <button class="arrow-right" onclick="changeImage(1)">&#8250;</button>
+            </div>
+            <div class="small-images">
+                <div class="small-image"><img src="asset/galeri/1.png"></div>
+                <div class="small-image"><img src="asset/galeri/2.png"></div>
+                <div class="small-image"><img src="asset/galeri/3.png"></div>
+                <div class="small-image"><img src="asset/galeri/4.png"></div>
+            </div>
+        </div>
+    </section>
+    <div class="beritafooter">
+    <section id="berita">
+        <h2>ARTIKEL TERKAIT</h2>
+        <div class="berita-container">
+            <div class="btn-group">
+                <button onclick="changeBorderRadius(this)">Artikel</button>
+                <button onclick="changeBorderRadius(this)">Foto</button>
+                <button onclick="changeBorderRadius(this)">Video</button>
+            </div>
+        </div>
+        <div class="berita-content">
+            <div class="berita1">
+                <img src="asset/berita/berita1.png">
+                <p class="desc">Sukses Finish Marathon di Jakarta, Osha Penyandang Autisme Beberkan Prosesnya</p>
+                <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+            </div>
+            <div class="berita2">
+                <img src="asset/berita/berita2.png">
+                <p class="desc">Edukasi Lingkungan Hidup Bonus Sehat di 'Misi Lestari 2023: See Nature</p>
+                <p>Selasa, 28 Nov 2023 07:42 WIB</p>
+            </div>
+            <div class="berita3">
+                <img src="asset/berita/berita3.png">
+                <p class="desc">Gokil! Puluhan Ribu Orang Ramaikan Pertamina Eco RunFest 2023</p>
+                <p>Minggu, 26 Nov 2023 13:04 WIB</p>
+            </div>
+            <div class="berita4">
+                <img src="asset/berita/berita4.png">
+                <p class="desc">Kelar Lari di CT Arsa Charity Fun Run, 'Recharge' Energi Nonton Maliq & D'essentials</p>
+                <p>Sabtu, 18 Nov 2023 17:39 WIB</p>
+            </div>
+            <div class="berita5">
+                <img src="asset/berita/berita5.png">
+                <p class="desc">CT Arsa Charity Fun Run 2023 Bertabur Emas</p>
+                <p>Kamis, 16 Nov 2023 16:34 WIB</p>
+            </div>
+            <div class="berita6">
+                <img src="asset/berita/berita6.png">
+                <p class="desc">BTN Jakarta Run 2023 Dorong dan Geliatkan Sport Tourism Jakarta</p>
+                <p>Minggu, 12 Nov 2023 11:55 WIB</p>
+            </div>
+        </div>
+    </section>
+    <a href="https://www.detik.com/search/searchall?query=fun+run&siteid=2" target="_blank"><button class="buttonberita">LIHAT LEBIH BANYAK</button></a>
+    </div>
+    <footer>
+        <img src="asset/footer.png" width="100%" height="100%">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
